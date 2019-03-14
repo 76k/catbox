@@ -1,0 +1,28 @@
+#spot{position: relative;}
+#cxk{width:960px;
+  height: 460px;
+  background: rgba(250, 114, 104,0.3);
+  position: absolute;
+  display: none;
+  z-index: 20;}
+#del{position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 18px;
+  color: #fa7268;
+  cursor: pointer;
+  }
+
+#taofen{position: relative;}
+#tf{width:960px;
+  height: 460px;
+  background: rgba(250, 114, 104,0.3);
+  position: absolute;
+  display: none;}
+#shab{position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;
+    color: #fa7268;
+    cursor: pointer;
+    }

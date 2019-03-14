@@ -1,0 +1,244 @@
+body,
+html,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "rencai";
+    src: url(../font/汉仪综艺体简.woff)format(woff);
+    src: url(../font/汉仪综艺体简.TTF)format(TTF);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    transition: all .3s;
+}
+
+img {
+    border: none;
+    font-size: 0;
+    display: block;
+}
+
+.clarfix::after {
+    clear: both;
+    display: inline-block;
+    content: "";
+}
+
+.clarfix::before {
+    clear: both;
+    display: inline-block;
+    content: "";
+}
+
+#app {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/* app_heard */
+#app_heard {
+    width: 100%;
+    height: 10vh;
+    background-color: #f86828;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#app_heard .heard_left {
+    width: 4.9rem;
+    height: 3.9rem;
+    padding-left: 2vw;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.heard_left div {
+    width: 100%;
+    height: 1vh;
+    background-color: white;
+    display: inline-block;
+
+}
+
+/* top_text */
+.heard_centen {
+    width: 15%;
+    height: 100%;
+    overflow: hidden;
+    /* position: relative;
+    left: 40%;
+    */
+    cursor: pointer;
+}
+
+.heard_centen img {
+    max-width: 100%;
+    padding-top: 3vh;
+    display: inline-block;
+}
+
+.heard_right {
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+/* banner */
+.banner {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* mian plate */
+.main {
+    max-width: 100%;
+    height: auto;
+}
+
+.main .main_plate {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.main_plate ul {
+    width: 100%;
+
+}
+
+.main_plate ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 10vh;
+
+}
+
+.main_plate ul li img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+@media screen and (max-width:521px) {
+    .main_plate ul li img {
+        max-width: 80%;
+    }
+}
+
+.main_plate ul li a {
+    font-size: 2.4vh;
+    color: #2b2b2b;
+    display: block;
+    padding-top: 1vh;
+}
+
+/*seckill */
+.seckill {
+    /* width: 100%; */
+    height: 43.6rem;
+    border: 1.5px #f86828 solid;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.seckill_left {
+    width: 40vw;
+    /* background: red; */
+}
+
+.seckill_left h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: "rencai";
+    color: #f86828;
+    padding-top: 1vh;
+    padding-left: 1vh;
+}
+
+.seckill_left p {
+    font-size: 2.4rem;
+    color: #f86828;
+    padding-left: 1vh;
+    padding-top: 1vh;
+}
+
+.seckill_left img {
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.seckill_left span {
+    font-size: 3vh;
+    padding-left: 1rem;
+    display: block;
+}
+.seckill_left a{
+    display: block;
+    width: 8.6rem;
+    height: 2.5rem;
+    background-color: #f86828;
+    color: white;
+    text-align: center;
+    line-height: 2.5rem; 
+    border-radius: 1rem;
+    margin-left :1rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .seckill {
+        display: block;
+    }
+
+    .seckill_left h3,
+    p {
+        text-align: center;
+    }
+
+    .seckill_left img {
+        padding-left: 38%;
+        padding-top: 10%;
+    }
+    .seckill_left span{
+    padding-left: 20%:
+    }
+
+    .seckill_left {
+        width: 100%
+    }
+}
+
+.seckill_centen {
+    width: 30vw;
+    background: rebeccapurple;
+}
+
+.seckill_right {
+    width: 30vw;
+    background: #2b2b2b;
+}

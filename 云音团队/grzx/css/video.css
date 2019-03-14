@@ -1,0 +1,23 @@
+.zyx{position: relative;}
+#warp{width:100%;
+  height: 1800px;
+  position: absolute;
+  left: 0;
+  bottom: -527px;
+  z-index: 10;
+  background: rgba(0,0,0,.5);
+  transition: all 1s;
+  display: none; }
+#video1{widows: 960px;
+  height: 460px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top:0;
+  margin: auto;}
+#shanchu{position: absolute;
+  bottom: 20%;
+  right: 300px;
+  z-index: 520;
+  cursor: pointer;}
